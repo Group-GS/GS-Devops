@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  db:
+    image: container-registry.oracle.com/database/free:latest
+    container_name: oracle_RMXXXXXX 
+    environment:
+      - ORACLE_PWD=SuaSenhaReal123
+    ports:
+      - "1521:1521"
+    volumes:
+      - oracledata:/opt/oracle/oradata
+    networks:
+      - agro_network
+
+  api:
+    container_name: api_RM563088
+    build:
+      context: ./AgroSpace.Api
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__OracleConnection=Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=db)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=FREEPDB1)));User Id=system;Password=300107;
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    networks:
+      - agro_network
+
+volumes:
+  oracledata:
+
+networks:
+  agro_network:
+    driver: bridge
