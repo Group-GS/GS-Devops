@@ -2957,11 +2957,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henrique Teixeira\\Desktop\\GS-.NET\\AgroSpace.Api\\AgroSpace.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Henrique Teixeira\\Desktop\\GS-Devops\\AgroSpace.Api\\AgroSpace.Api.csproj",
       "projectName": "AgroSpace.Api",
-      "projectPath": "C:\\Users\\Henrique Teixeira\\Desktop\\GS-.NET\\AgroSpace.Api\\AgroSpace.Api.csproj",
+      "projectPath": "C:\\Users\\Henrique Teixeira\\Desktop\\GS-Devops\\AgroSpace.Api\\AgroSpace.Api.csproj",
       "packagesPath": "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henrique Teixeira\\Desktop\\GS-.NET\\AgroSpace.Api\\obj\\",
+      "outputPath": "C:\\Users\\Henrique Teixeira\\Desktop\\GS-Devops\\AgroSpace.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Henrique Teixeira\\AppData\\Roaming\\NuGet\\NuGet.Config"

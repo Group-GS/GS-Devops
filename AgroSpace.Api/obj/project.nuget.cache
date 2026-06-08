@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QDI/KkMnjew=",
+  "dgSpecHash": "anqow0ZSMm0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henrique Teixeira\\Desktop\\GS-.NET\\AgroSpace.Api\\AgroSpace.Api.csproj",
+  "projectFilePath": "C:\\Users\\Henrique Teixeira\\Desktop\\GS-Devops\\AgroSpace.Api\\AgroSpace.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Henrique Teixeira\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.6\\microsoft.aspnetcore.openapi.10.0.6.nupkg.sha512",
