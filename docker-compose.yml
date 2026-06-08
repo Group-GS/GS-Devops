@@ -3,9 +3,9 @@ version: '3.8'
 services:
   db:
     image: container-registry.oracle.com/database/free:latest
-    container_name: oracle_RMXXXXXX 
+    container_name: oracle_RM563088
     environment:
-      - ORACLE_PWD=SuaSenhaReal123
+      - ORACLE_PWD=300107
     ports:
       - "1521:1521"
     volumes:
@@ -20,7 +20,7 @@ services:
       dockerfile: Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__OracleConnection=Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=db)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=FREEPDB1)));User Id=system;Password=300107;
+      - ConnectionStrings__OracleConnection=Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=20.220.184.26)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=FREEPDB1)));User Id=system;Password=300107;
     ports:
       - "8080:8080"
     depends_on:
