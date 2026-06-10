@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgroSpace.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a86d66806f28c5f704ca5c1196981bfc80131de6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a16aafcdc614154fd2b8c56b5f991a2a12bcbb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgroSpace.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgroSpace.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
